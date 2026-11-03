@@ -1,12 +1,12 @@
 import LeftBar from "@/src/modules/ui/shared/leftbar";
-import Profile from "@/src/modules/ui/shared/profile";
+import Profile from "@/src/modules/ui/screens/profile";
 
 export default function ProfilePage() {
   return (
     <div className="flex h-dvh flex-col overflow-hidden bg-slate-50 text-slate-900 md:flex-row">
       <LeftBar active="profile" />
       <main className="min-h-0 flex-1 overflow-y-auto">
-        <div className="mx-auto flex w-full max-w-6xl items-start px-5 py-8 sm:px-8">
+        <div className="mx-auto flex min-h-full w-full max-w-6xl items-center justify-center px-5 py-8 sm:px-8">
           <Profile />
         </div>
       </main>
