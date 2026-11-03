@@ -1,5 +1,5 @@
-import MyPosts from "@/src/modules/ui/screens/myposts";
-import ProfileDetails from "@/src/modules/ui/shared/profiledetails";
+import MyPosts from "@/features/posts/components/my-posts";
+import ProfileDetails from "@/features/profile/components/profile-details";
 
 export default function Profile() {
   return (

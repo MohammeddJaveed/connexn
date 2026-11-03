@@ -1,5 +1,5 @@
-import LeftBar from "@/src/modules/ui/shared/leftbar";
-import Profile from "@/src/modules/ui/screens/profile";
+import LeftBar from "@/components/navigation/left-bar";
+import Profile from "@/features/profile/components/profile-screen";
 
 export default function ProfilePage() {
   return (

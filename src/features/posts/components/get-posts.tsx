@@ -1,5 +1,5 @@
-import PostCard from "@/src/modules/ui/shared/postcard";
-import { posts } from "@/src/modules/ui/shared/posts";
+import PostCard from "@/features/posts/components/post-card";
+import { posts } from "@/features/posts/data/posts";
 
 export default function GetPosts() {
   return (

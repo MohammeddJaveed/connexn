@@ -1,4 +1,4 @@
-import type { Post } from "@/src/modules/ui/shared/posts";
+import type { Post } from "@/features/posts/data/posts";
 
 export default function PostCard({
   post,

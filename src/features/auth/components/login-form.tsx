@@ -1,15 +1,16 @@
 'use client'
 import Link from "next/link"
-import React, { use, useState } from "react";
-import Button from "../shared/button";
-import { Form } from "../shared/form";
+import type { FormEvent } from "react";
+import { useState } from "react";
+import Button from "@/components/ui/button";
+import { Form } from "@/components/ui/form";
 import { useRouter } from "next/navigation";
 
 
 export default function LoginForm() {
     const [isLoading, setIsLoading] = useState<boolean>(false);
     const router = useRouter();
-async function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
+async function handleSubmit(event: FormEvent<HTMLFormElement>) {
     setIsLoading(true);
     
     console.log("Form submitted");

@@ -1,6 +1,6 @@
-import Button from "@/src/modules/ui/shared/button";
-import PostCard from "@/src/modules/ui/shared/postcard";
-import { posts } from "@/src/modules/ui/shared/posts";
+import Button from "@/components/ui/button";
+import PostCard from "@/features/posts/components/post-card";
+import { posts } from "@/features/posts/data/posts";
 
 export default function MyPosts({ preview = false }: { preview?: boolean }) {
   const displayedPosts = preview ? posts.slice(0, 3) : posts;

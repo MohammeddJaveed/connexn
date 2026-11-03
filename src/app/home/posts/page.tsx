@@ -1,4 +1,4 @@
-import GetPosts from "@/src/modules/ui/shared/getposts";
+import GetPosts from "@/features/posts/components/get-posts";
 
 export default function PostsPage() {
   return (

@@ -1,5 +1,5 @@
-import Homescreen from "@/src/modules/ui/screens/homescreen";
+import HomeScreen from "@/features/home/components/home-screen";
 
- export default function home() {
-return <Homescreen />;
+export default function HomePage() {
+  return <HomeScreen />;
 }

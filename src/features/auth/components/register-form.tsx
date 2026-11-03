@@ -1,13 +1,14 @@
 "use client";
-import React, { use, useState } from "react";
+import type { FormEvent } from "react";
+import { useState } from "react";
 import { useRouter } from "next/navigation";
-import { Form } from "../shared/form";
-import Button from "../shared/button";
+import { Form } from "@/components/ui/form";
+import Button from "@/components/ui/button";
 
 export default function RegisterForm() {
   const router = useRouter();
   const [isLoading, setIsLoading] = useState<boolean>(false);
-  async function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
+  async function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     setIsLoading(true);
     const formData = new FormData(event.currentTarget);

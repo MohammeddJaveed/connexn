@@ -1,8 +1,8 @@
 "use client";
 
 import { useState } from "react";
-import Button from "@/src/modules/ui/shared/button";
-import EditProfileDialog from "@/src/modules/ui/shared/editProfileDialog";
+import Button from "@/components/ui/button";
+import EditProfileDialog from "@/features/profile/components/edit-profile-dialog";
 
 export default function ProfileDetails() {
   const [isDialogOpen, setIsDialogOpen] = useState(false);

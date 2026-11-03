@@ -1,6 +1,6 @@
 "use client";
-import Button from "./button";
-import DialogModel from "./dialogModel";
+import Button from "@/components/ui/button";
+import DialogModel from "@/components/ui/dialog-model";
 
 export default function EditProfileDialog({
   onClose,

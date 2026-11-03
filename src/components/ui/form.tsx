@@ -1,7 +1,7 @@
-import React, { ComponentProps } from 'react';
+import type { ComponentProps, ReactNode } from "react";
 
 interface FormProps extends ComponentProps<'form'> {
-  children: React.ReactNode;
+  children: ReactNode;
 }
 
 export function Form({ children, className = '', ...props }: FormProps) {

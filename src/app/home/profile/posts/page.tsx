@@ -1,5 +1,5 @@
-import LeftBar from "@/src/modules/ui/shared/leftbar";
-import MyPosts from "@/src/modules/ui/screens/myposts";
+import LeftBar from "@/components/navigation/left-bar";
+import MyPosts from "@/features/posts/components/my-posts";
 
 export default function MyPostsPage() {
   return (

@@ -21,7 +21,7 @@ export default function Button({
 }) {
   const variantStyles =
     variant === "cancel"
-      ? "border border-black bg-transparent text-black disabled:bg-transparent hover:bg-indigo-100"
+      ? "border border-black bg-transparent text-black disabled:bg-transparent"
       : variant === "delete"
         ? "bg-red-600 text-white hover:bg-red-700 disabled:bg-red-300"
         : "bg-indigo-500 text-white hover:bg-indigo-600 disabled:bg-gray-400";

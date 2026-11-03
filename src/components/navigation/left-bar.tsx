@@ -1,9 +1,9 @@
 import Link from "next/link";
 
-type Section = "posts" | "connect" | "profile";
+type Section = "home" | "connect" | "profile";
 
 const links: { label: string; href: string; section: Section }[] = [
-  { label: "Posts", href: "/home", section: "posts" },
+  { label: "Home", href: "/home", section: "home" },
   { label: "Connect", href: "/home/connect", section: "connect" },
   { label: "Profile", href: "/home/profile", section: "profile" },
 ];

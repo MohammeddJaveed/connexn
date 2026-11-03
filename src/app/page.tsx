@@ -1,5 +1,5 @@
-import LandingPage from "../modules/ui/landing-page"
+import LandingPage from "@/features/landing/components/landing-page";
 
-export default function home(){
- return <LandingPage />
+export default function HomePage() {
+  return <LandingPage />;
 }
